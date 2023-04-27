@@ -82,7 +82,7 @@ a {
 }
 
 .two {
-    height: 600px;
+    height: 700px;
     background: white;
     padding: 45px 350px;
 }
@@ -120,4 +120,28 @@ a {
     padding: 16px;
     justify-content: center;
     align-items: center;
+}
+
+.three {
+    height: 600px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.quote {
+    font-size: 36px;    
+    color: #1F2937;
+
+}
+
+.who {
+    margin-left:auto;
+    font-size: 24px;
+    font-weight: bold;
+
 }
