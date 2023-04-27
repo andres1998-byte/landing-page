@@ -44,6 +44,7 @@ a {
     padding: 8px 350px;
     justify-content: space-around;
     align-items: center;
+    gap: 8px;
 
 }
 
@@ -78,5 +79,45 @@ a {
     font-weight:bold;
     border-radius: 5px;
 
+}
 
+.two {
+    height: 600px;
+    background: white;
+    padding: 45px 350px;
+}
+
+.titletwo {
+    color:#1F2937;
+    font-weight:800;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 40px;
+
+}
+
+.information1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictureoftigers {
+    height: 200px;
+}
+
+.subtext {
+    display:flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
 }
